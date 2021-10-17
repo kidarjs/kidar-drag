@@ -1,6 +1,6 @@
 {
   "name": "kidar-vue-drag",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha",
   "description": "some components for vue",
   "main": "lib/kidar-vue-drag.umd.js",
   "module": "lib/kidar-vue-drag.es.js",
@@ -12,9 +12,12 @@
   "peerDependencies": {
     "vue": "^2.6.14"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "private": false,
   "scripts": {
-    "postinstall": "husky install",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint './src/*.{js,ts,tsx,vue,md}'",
